@@ -86,8 +86,10 @@
 -- SELECT COUNT(*) AS [Number of records]
 -- FROM STUDENT;
 
--- SELECT AVG(Id) 
--- FROM STUDENT
+
+
+
+
 
 
 
