@@ -116,6 +116,26 @@
 -- AND Id IN (1,4)
 
 
+-- SELECT ProductID, ProductName, CategoryName
+-- FROM Products
+-- INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;   
+
+ 
+-- SELECT CategoryID FROM CATEGORIES
+-- UNION all
+-- SELECT ProductId FROM PRODUCTS
+
+-- SELECT COUNT(ProductId), ProductName
+-- FROM PRODUCTS
+-- -- WHERE ProductName="Chais"
+-- GROUP BY ProductName
+-- HAVING COUNT(ProductId)>1
+-- ORDER BY COUNT(ProductId) DESC
+
+
+-- SELECT * FROM PRODUCTS
+-- CROSS JOIN CATEGORIES
+
 
 
 
